@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title id="tituloPagina">Justicia Legal Colima</title>
+<meta content="Justicia Legal Colima. Análisis, asesoría y representación jurídica en asuntos civiles, familiares, mercantiles, laborales, agrarios y sucesorios." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="container nav">
+<div class="brand">
+<img alt="Logotipo del despacho" id="logo"/>
+<div>
+<div class="brand-name" id="marca"></div>
+<div class="brand-sub" id="submarca"></div>
+</div>
+</div>
+<nav>
+<a href="#inicio">Inicio</a>
+<div class="dropdown">
+<a aria-haspopup="true" href="#servicios">Servicios</a>
+<div aria-label="Áreas jurídicas" class="dropdown-menu">
+<a href="paginas/derecho-civil.html">Derecho Civil</a>
+<a href="paginas/derecho-familiar.html">Derecho Familiar</a>
+<a href="paginas/derecho-mercantil.html">Derecho Mercantil</a>
+<a href="paginas/derecho-laboral.html">Derecho Laboral</a>
+<a href="paginas/derecho-agrario.html">Derecho Agrario</a>
+<a href="paginas/sucesiones.html">Sucesiones</a>
+</div>
+</div>
+<a href="#despacho">Despacho</a>
+<a href="biblioteca/index.html">Biblioteca Jurídica</a>
+<a href="paginas/preguntas-frecuentes.html">Preguntas frecuentes</a>
+<a href="noticias/index.html">Actividad institucional</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero" id="inicio">
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">Despacho jurídico</div>
+<h1 id="frasePrincipal"></h1>
+<p id="fraseSecundaria"></p>
+<div class="actions">
+<a class="btn btn-primary whatsapp" rel="noopener" target="_blank">Solicitar asesoría</a>
+<a class="btn btn-secondary" href="#servicios">Áreas de práctica</a>
+</div>
+</div>
+<div class="hero-media">
+<img alt="Imagen principal" id="imagenPortada"/>
+</div>
+</div>
+</section>
+<section id="servicios">
+<div class="container">
+<div class="section-heading center">
+<div class="kicker">Áreas de práctica</div>
+<h2>Nuestra intervención jurídica</h2>
+<p>Cada asunto presenta hechos, documentos y consecuencias distintas. Nuestra intervención parte del estudio particular del caso para definir una estrategia jurídicamente viable y acorde con los intereses que deben protegerse.</p>
+</div>
+<div class="services-grid" id="listaServicios"></div>
+</div>
+</section>
+<section class="about" id="despacho">
+<div class="container about-grid">
+<div class="about-media">
+<img alt="Imagen editorial del despacho" id="imagenDespacho"/>
+</div>
+<div class="about-copy">
+<div class="kicker">Práctica profesional</div>
+<h2 id="tituloDespacho"></h2>
+<p id="descripcionDespacho"></p>
+<p><strong id="fraseInstitucional"></strong></p>
+<div class="values-grid" id="listaValores"></div>
+</div>
+</div>
+</section>
+<section class="cta">
+<div class="container">
+<div class="cta-box">
+<div>
+<h2>Conversemos sobre su asunto.</h2>
+<p>Puede plantear brevemente la naturaleza del problema para concertar una consulta y conocer la documentación inicial que conviene revisar.</p>
+</div>
+<a class="btn whatsapp" rel="noopener" target="_blank">Solicitar asesoría</a>
+</div>
+</div>
+</section>
+<section class="contact" id="contacto">
+<div class="container contact-grid">
+<div>
+<h2>Contacto</h2>
+<p>La atención se brinda previa cita. Puede comunicarse con el despacho para concertar una consulta y recibir indicaciones sobre la documentación inicial de su asunto.</p>
+<p><strong id="nombreDespachoContacto"></strong></p>
+<p id="domicilio"></p>
+</div>
+<div class="contact-links">
+<a id="linkWhatsApp" target="_blank"></a>
+<a id="linkTelefono"></a>
+<a id="linkCorreo"></a>
+<a id="linkFacebook" target="_blank">Abrir Facebook</a>
+<a download="" href="contacto.vcf">Guardar contacto del despacho</a>
+</div>
+</div>
+</section>
+</main>
+<a aria-label="WhatsApp" class="float-wa whatsapp" rel="noopener" target="_blank">💬</a>
+<footer id="pie"></footer>
+<script src="DATOS_EDITABLES.js"></script><script src="js/sitio.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+
+$("tituloPagina").textContent = DATOS.nombreDespacho;
+$("logo").src = DATOS.logo;
+$("marca").textContent = DATOS.nombreDespacho.toUpperCase();
+$("submarca").textContent = DATOS.subtituloMarca.toUpperCase();
+$("frasePrincipal").textContent = DATOS.frasePrincipal;
+$("fraseSecundaria").textContent = DATOS.fraseSecundaria;
+$("imagenPortada").src = DATOS.imagenPortada;
+$("imagenDespacho").src = DATOS.imagenDespacho;
+$("tituloDespacho").textContent = DATOS.tituloDespacho;
+$("descripcionDespacho").textContent = DATOS.descripcionDespacho;
+$("fraseInstitucional").textContent = "“" + DATOS.fraseInstitucional + "”";
+$("nombreDespachoContacto").textContent = DATOS.nombreDespacho;
+$("domicilio").textContent = DATOS.domicilio;
+$("pie").textContent = "© " + new Date().getFullYear() + " Todos los derechos reservados.";
+
+const numero = DATOS.ladaPais + DATOS.telefono.replace(/\D/g,"");
+const wa = "https://wa.me/" + numero + "?text=" + encodeURIComponent(DATOS.mensajeWhatsApp);
+
+document.querySelectorAll(".whatsapp").forEach(a => a.href = wa);
+$("linkWhatsApp").href = wa;
+$("linkWhatsApp").textContent = "WhatsApp: " + DATOS.telefono;
+$("linkTelefono").href = "tel:+" + numero;
+$("linkTelefono").textContent = "Llamar al " + DATOS.telefono;
+$("linkCorreo").href = "mailto:" + DATOS.correo;
+$("linkCorreo").textContent = DATOS.correo;
+$("linkFacebook").href = DATOS.facebook;
+
+$("listaServicios").innerHTML = DATOS.servicios.map(s => `
+  <a class="service-card" href="${s.enlace}">
+    <div class="service-number">${s.numero || s.icono || ""}</div>
+    <h3>${s.titulo}</h3>
+    <p>${s.descripcion}</p>
+  </a>
+`).join("");
+
+$("listaValores").innerHTML = DATOS.valores.map(v => `
+  <div class="value">
+    <b>${v.titulo}</b>
+    <span>${v.texto}</span>
+  </div>
+`).join("");
+</script>
+</body>
+</html>

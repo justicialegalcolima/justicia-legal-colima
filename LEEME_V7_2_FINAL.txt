@@ -1,0 +1,5 @@
+JUSTICIA LEGAL COLIMA — V7.2 FINAL
+
+- Eliminada Artículos/Biblioteca.
+- Eliminados sus enlaces de todos los menús.
+- Sustituidos números 01–06 por iconos SVG temáticos.

@@ -1,0 +1,15 @@
+JUSTICIA LEGAL COLIMA — V7.1
+
+Cambios aplicados:
+1. Eliminada por completo la sección y navegación de Actualidad.
+2. Menú superior con separación intermedia y equilibrada.
+3. “JUSTICIA LEGAL COLIMA” permanece en una sola línea.
+4. Portada acercada al encabezado.
+5. Menor separación vertical entre secciones.
+6. Iconos en las áreas de atención en lugar de números.
+
+Sustituya el proyecto completo o, como mínimo:
+- index.html
+- DATOS_EDITABLES.js
+- css/estilos.css
+- los HTML de paginas/ y biblioteca/ para eliminar “Actualidad”.

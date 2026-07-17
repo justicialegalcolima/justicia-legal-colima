@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://justicialegalcolima.github.io/justicia-legal-colima/sitemap.xml

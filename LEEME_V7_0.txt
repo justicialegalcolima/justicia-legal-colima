@@ -1,0 +1,18 @@
+JUSTICIA LEGAL COLIMA — V7.0
+
+VERSIÓN COMPLETA BASADA EN LA RETROALIMENTACIÓN DE USUARIOS.
+
+Cambios centrales:
+- La portada habla primero del problema del visitante.
+- Las tarjetas describen situaciones reales, no únicamente ramas del Derecho.
+- Las páginas internas comienzan con “Podemos ayudarle si...”.
+- “¿Qué comprende?” cambia por “¿Cómo podemos ayudarle?”.
+- “Biblioteca Jurídica” cambia a “Artículos”.
+- Preguntas frecuentes se organiza con lenguaje de necesidades.
+- Se conserva el diseño, imágenes, navegación móvil y funcionamiento existente.
+
+Para publicar:
+1. Conserve una copia de la versión actual.
+2. Sustituya el contenido completo del repositorio por esta versión.
+3. Espere la actualización de GitHub Pages.
+4. Revise en computadora y celular.

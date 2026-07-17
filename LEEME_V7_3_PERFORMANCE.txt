@@ -1,0 +1,20 @@
+JUSTICIA LEGAL COLIMA — V7.3 PERFORMANCE EDITION
+
+Incluye:
+- Imágenes principales convertidas a WebP.
+- Logo optimizado para web.
+- favicon.ico y variantes PNG.
+- CSS y JavaScript minificados.
+- Preload de la imagen principal.
+- Carga diferida de imágenes no críticas.
+- Open Graph y Twitter Card básicos.
+- manifest.webmanifest.
+- robots.txt.
+- sitemap.xml.
+- página 404.html.
+- Preparación para GitHub Pages y futuro dominio.
+
+Para publicar:
+Sustituya el contenido completo del repositorio por esta versión.
+El sitemap usa temporalmente la dirección de GitHub Pages.
+Cuando se conecte el dominio definitivo deberá actualizarse sitemap.xml y robots.txt.
